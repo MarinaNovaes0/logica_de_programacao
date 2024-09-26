@@ -1,0 +1,16 @@
+nome = input('Digite o seu nome: ')
+idade = int(input('Digite sua idade: '))
+peso = input('Digite seu peso: ')
+altura = input('Digite sua altura: ')
+
+print()
+print(type(nome))
+print(type(idade))
+print(type(peso))
+print(type(altura))
+print()
+
+print(f'Seu nome é {nome}')
+print(f'Você tem {idade} anos')
+print(f'Você pesa {peso} KG')
+print(f'E tem {altura} de altura')
